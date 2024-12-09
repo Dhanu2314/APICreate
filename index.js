@@ -22,7 +22,7 @@ const app = express();
 //const users = require("./data/MOCK_DATA.json");
 const users = require("./MOCK_DATA.json");
 
-const PORT = process.env.PORT || 8005;
+const PORT = process.env.PORT || 8004;
 app.get("/api/users", (req, res) => {
 
   return res.json(users);  // Sends the users array as JSON response
